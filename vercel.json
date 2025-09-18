@@ -1,10 +1,10 @@
 {
+  "version": 2,
+  "name": "wildfire-frontend",
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "src/main.js", "use": "@vercel/static-build" }
+    { "src": "public/**/*", "use": "@vercel/static" }
   ],
-"env": {
-  "VITE_GOOGLE_MAPS_API_KEY": "PLACEHOLDER",
-  "VITE_BACKEND_URL": "PLACEHOLDER"
+  "routes": [
+    { "src": "/(.*)", "dest": "/public/index.html" }
+  ]
 }
-  }
