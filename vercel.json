@@ -3,8 +3,8 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "src/main.js", "use": "@vercel/static-build" }
   ],
-  "env": {
-    "VITE_GOOGLE_MAPS_API_KEY": "@google_maps_key",
-    "VITE_BACKEND_URL": "@backend_url"
-  }
+"env": {
+  "VITE_GOOGLE_MAPS_API_KEY": "PLACEHOLDER",
+  "VITE_BACKEND_URL": "PLACEHOLDER"
 }
+  }
